@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  color: oklch(49% 0.0345 70.18deg);
+}
+
+.container {
+  display: grid;
+}
+
+.sidebar {
+  background-color: oklch(71% 0.089 70.68deg);
+}
+
+.header {
+  background-color: oklch(41% 0.0277 71.23deg);
+}
+
+.realtors {
+  background-color: oklch(23% 0.0347 252.8deg);
+}
+
+.features {
+  background-color: oklch(74% 0 0deg);
+}
+
+.story__prictures {
+  background-color: oklch(71% 0.089 70.68deg);
+}
+.story__content {
+  background-color: oklch(98% 0.0025 48.72deg);
+}
+
+.homes {
+  background-color: oklch(23% 0.0347 252.8deg);
+}
+
+.gallery {
+  background-color: oklch(41% 0.0277 71.23deg);
+}

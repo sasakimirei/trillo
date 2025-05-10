@@ -1,0 +1,66 @@
+// COLOR VARIABLES
+//$color-primary: #c69963;
+//$color-primary-dark: #B28451;
+//
+//$color-secondary: #101d2c;
+//
+//$color-grey-light-1: #f9f7f6;
+//$color-grey-light-2: #aaa;
+//
+//$color-grey-dark-1: #54483A;
+//$color-grey-dark-2: #6D5D4B;
+
+// :root {
+//   --color-primary: oklch(0.71 0.089 70.68);
+//   --color-primary-dark: oklch(0.65 0.0882 68.06);
+
+//   --color-secondary: oklch(0.23 0.0347 252.8);
+
+//   --color-grey-light-1: oklch(0.98 0.0025 48.72);
+//   --color-grey-light-2: oklch(0.74 0 0);
+
+//   --color-grey-dark-1: oklch(0.41 0.0277 71.23);
+//   --color-grey-dark-2: oklch(0.49 0.0345 70.18);
+
+//   // FONT VARIABLES
+//   --font-primary: "Nunito", sans-serif;
+//   --font-display: "Josefin Sans", sans-serif;
+// }
+
+$color-primary: oklch(0.71 0.089 70.68);
+$color-primary-dark: oklch(0.65 0.0882 68.06);
+
+$color-secondary: oklch(0.23 0.0347 252.8);
+
+$color-grey-light-1: oklch(0.98 0.0025 48.72);
+$color-grey-light-2: oklch(0.74 0 0);
+
+$color-grey-dark-1: oklch(0.41 0.0277 71.23);
+$color-grey-dark-2: oklch(0.49 0.0345 70.18);
+
+// FONT VARIABLES
+$font-primary: "Nunito", sans-serif;
+$font-display: "Josefin Sans", sans-serif;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 10px / 16px = 62.5% -> 1rem = 10px
+}
+
+body {
+  font-family: $font-primary;
+  font-weight: 300;
+  line-height: 1.6;
+  color: $color-grey-dark-2;
+}
+.container {
+  display: grid;
+}
