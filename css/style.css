@@ -20,6 +20,7 @@ body {
 
 .container {
   display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
 }
 
 .sidebar {
@@ -42,7 +43,7 @@ body {
   background-color: oklch(71% 0.089 70.68deg);
 }
 .story__content {
-  background-color: oklch(98% 0.0025 48.72deg);
+  background-color: oklch(0.98 0.0025 48.72);
 }
 
 .homes {
